@@ -1,8 +1,8 @@
-// const express = require("express");
-// const User = require("./user");
+const express = require("express");
+const User = require("./user");
 
-// const app = express();
-// app.use(express.json());
+const app = express();
+app.use(express.json());
 
 // app.get("/users", async (req, res) => {
 //   try {
